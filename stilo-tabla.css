@@ -1,0 +1,73 @@
+.todo{
+    text-align: center;
+    margin: 10px 40px;
+}
+.flex{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.contenedor{
+    border: 2px solid #984a59;
+    padding: 30px 20px;
+    margin: 0 auto;
+    background-color: #aedadd;
+    color: black;   
+    font-family: 'Acme', sans-serif;
+    border-radius: 20px;
+    box-shadow:-6px 6px 10px #984a59;
+
+    width: 23%;
+    box-sizing: border-box;
+}
+.contenedor:hover{
+    background-color: #b5edba;
+    margin-top: -3px; 
+    transition: 0.3s;
+    box-shadow:-6px 10px 10px #984a59;
+     
+}
+.titulo{
+    font-size: 30px;
+}
+.precio{
+    color: #E76838;
+    font-size: 50px;
+}
+.texto{
+}
+.btn-compra{
+    padding: 10px 40px;
+    background-color: #6e7da2;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #984a59;
+    text-decoration: none;
+    box-shadow:-2px 2px 10px #984a59;
+    
+}
+.btn-compra:hover{
+    background-color: #E76838;
+    box-shadow:-4px 4px 10px #984a59;
+    padding: 12px 45px;
+    transition: 0.2s;
+}
+.btn-compra:active{
+    background-color: #23a393;
+    transition: 0.1s;
+
+}
+/**v tabla responsive **/
+@media (max-width: 1070px){
+    .contenedor{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .contenedor{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
